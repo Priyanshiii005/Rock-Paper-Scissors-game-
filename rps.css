@@ -1,0 +1,107 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+}
+
+#font{
+    margin-left: 750px;
+    line-height: 3rem;
+    font-size: xx-large;
+    font-weight: 300;
+}
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    
+}
+
+#Rock:hover{
+opacity: 0.5;
+border: 4px solid black;
+border-radius: 50%;
+
+
+}
+
+#Paper:hover{
+    opacity: 0.5;
+    border: 4px solid black;
+    border-radius: 50%;
+
+}
+
+#Scissor:hover{
+    opacity:0.5;
+    border: 4px solid black;
+    border-radius: 50%;
+
+}
+
+#Rock i{
+    height: 280px;
+    width: 280px;
+    font-size: 250px;
+    color: hotpink;
+}
+
+#Paper i{
+    font-size: 250px;
+    color: purple;
+}
+
+#Scissor i{
+    font-size: 250px;
+    color: darkblue;
+}
+
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    margin-top: 5rem;
+    font-size: 2rem;
+
+    
+}
+
+.msg{
+
+    align-items: center;
+    border-radius: 50%;
+    
+
+
+}
+
+.msg {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-left: 750px;
+    margin-top: 10px;
+    font-size: 2rem;
+    border-radius: 0.7rem;
+    
+    
+}
+
+
+
+#user-score,#computer-score{
+    font-size: 4rem;
+    gap: 30px;
+}
